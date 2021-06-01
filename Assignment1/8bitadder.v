@@ -1,4 +1,4 @@
-  
+   
 module bitadder(input a,
                       b,
                       cin,
