@@ -149,7 +149,7 @@ reg[7:0] key;
 
    f_function uut(right,y,key);
 
-   always @ (right or y ) begin
+   always @ (right or y or left) begin
       $display(" Original = %b%b, Encrypted output left = %b , Encrypted output right  = %b , key = %b ",  left,right, right, y^left, key);
    end
 
